@@ -1,4 +1,4 @@
-export interface HugeTranslations {
+export interface Translations {
     "common.hello": string;
     "common.welcome": string;
     "common.search": string;

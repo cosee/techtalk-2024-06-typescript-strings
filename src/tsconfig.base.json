@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "skipLibCheck": true
+  }
+}

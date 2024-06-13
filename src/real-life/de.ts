@@ -1,4 +1,4 @@
-import {HugeTranslations} from "./huge.schema";
+import {Translations} from "./schema";
 
 export default {
   "404.message": "Die angeforderte Seite wurde nicht gefunden.",
@@ -74,4 +74,4 @@ export default {
   "validation.password_mismatch": "Passwörter stimmen nicht überein.",
   "validation.required_field": "Dieses Feld ist erforderlich.",
   "wishes.happy_birthday": "Alles Gute zum Geburtstag, {{name}}!",
-} satisfies HugeTranslations;
+} satisfies Translations;

@@ -1,0 +1,14 @@
+
+export interface TranslationSchema {
+{{#each paramsMap as |params key|}}
+  {{#if params.size}}
+    {{js key}}: [params: {
+    {{#each params as |param|}}
+      {{js param}}: string | number,
+    {{/each}}
+    }]
+  {{else}}
+    {{js key}}: []
+  {{/if}}
+{{/each}}
+}
