@@ -5,7 +5,10 @@ describe("translation", () => {
     it("shows german value, filling placeholders", () => {
         setLanguage("de")
         expect(t("title")).toEqual("Willkommen")
-        expect(t("greeting", { username: "Nils"})).toEqual("Hallo Nils")
+
+        expect(
+            t("greeting", { username: "Nils"})
+        ).toEqual("Hallo Nils")
     })
 
     it("shows english value", () => {
