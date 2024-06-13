@@ -7,6 +7,7 @@
     "test:unit": "vitest run",
     "test:ts": "tsc -b src/tsconfig.json",
     "dev:ts": "tsc -b src/tsconfig.json --watch",
+    "generate-schema": "vite-node --watch src/solutions-codegenerator/generate-schema.ts src/solutions-codegenerator/translation-schema.ts",
     "dev:unit": "vitest"
   },
   "keywords": [],
