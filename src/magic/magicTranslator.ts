@@ -1,10 +1,10 @@
 let translationStore: Record<string, Record<string, string>> = {};
 
-export class MagicTranslator {
-  private translations: Record<string, Record<string, string>>;
+export class MagicTranslator<T = Record<string, string>> {
+  private readonly translations: Record<string, T>;
   private currentLanguage: string;
 
-  constructor(translations: Record<string, Record<string, string>>) {
+  constructor(translations: Record<string, T>) {
     this.translations = translations;
   }
 
