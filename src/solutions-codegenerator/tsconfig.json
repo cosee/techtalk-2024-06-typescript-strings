@@ -1,0 +1,16 @@
+{
+  "extends": ["../tsconfig.base.json"],
+  "compilerOptions": {
+    "outDir": "../../dist/code-generator",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "module": "ES2022",
+    "strict": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true
+  },
+  "include": ["**/*", "**/*.json"],
+  "references": [ {
+    "path": "../magic/tsconfig.json"
+  }]
+}

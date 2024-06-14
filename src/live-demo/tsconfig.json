@@ -1,0 +1,10 @@
+{
+  "extends": ["../tsconfig.base.json"],
+  "compilerOptions": {
+    "outDir": "../../dist/live-demo"
+  },
+  "include": ["**/*", "**/*.json" ],
+  "references": [ {
+    "path": "../magic/tsconfig.json"
+  }]
+}

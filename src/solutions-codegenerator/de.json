@@ -1,0 +1,5 @@
+{
+  "title": "Willkommen",
+  "greeting": "Hallo {username}",
+  "nextGame": "Nächstes Spiel: {player1} gegen {player2}"
+}
