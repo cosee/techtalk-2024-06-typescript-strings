@@ -1,18 +1,11 @@
-// string type
+// noinspection JSUnusedLocalSymbols
 
-// string literal type
-
-// union types + function
+// string literal type + union type
 
 // keyof
 
-// keyof as const
-
-// Object[Value]
-
-
 // typeof
-
-// typeof array[number]
+// union types + function
+// as const
 
 
