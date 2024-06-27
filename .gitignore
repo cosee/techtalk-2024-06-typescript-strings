@@ -23,3 +23,8 @@ node_modules
 /dist/solutions/tsconfig.tsbuildinfo
 /dist/solutions/typed-translations.d.ts
 /dist/solutions/typed-translations.test.d.ts
+/dist/code-generator/generate-schema.d.ts
+/dist/code-generator/translation-schema.d.ts
+/dist/code-generator/translations.d.ts
+/dist/live-demo/infer-template-literals.d.ts
+/dist/live-demo/vue-test.d.ts

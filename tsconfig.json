@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    {
+      "path": "./src/live-demo/tsconfig.json"
+    },
+    { "path": "./src/magic/tsconfig.json"},
+    { "path": "./src/real-life/tsconfig.json"},
+    { "path": "./src/solutions/tsconfig.json"},
+    { "path": "./src/solutions-codegenerator/tsconfig.json"}
+  ],
+  "files": []
+}

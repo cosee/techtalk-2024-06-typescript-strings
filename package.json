@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:unit": "vitest run",
-    "test:ts": "tsc -b src/tsconfig.json",
-    "dev:ts": "tsc -b src/tsconfig.json --watch",
+    "test:ts": "tsc -b tsconfig.json",
+    "dev:ts": "tsc -b tsconfig.json --watch",
     "generate-schema": "vite-node --watch src/solutions-codegenerator/generate-schema.ts src/solutions-codegenerator/translation-schema.ts",
     "dev:unit": "vitest"
   },
